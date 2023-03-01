@@ -1,0 +1,128 @@
+body {
+  font-family: Verdana, Tahoma;
+}
+
+header,
+section,
+footer {
+  width: 960px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+header {
+  height: 80px;
+  background-color: aliceblue;
+}
+
+#mi_nombre {
+  width: 220px;
+  height: 80px;
+  float: left;
+  padding: 10px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+#mi_foto {
+  margin-left: 15px;
+}
+
+.imgRedonda {
+  border-radius: 150px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 24px;
+  color: #004d00;
+}
+
+h4 {
+  margin: 10px;
+}
+
+#btn_principal {
+  width: 600px;
+  height: 80px;
+  float: right;
+}
+
+#btn_principal ul,
+#redes ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#btn_principal ul li,
+#redes ul li {
+  display: inline;
+}
+
+#btn_principal ul li a {
+  display: inline-block;
+  padding: 30px 10px;
+  color: #000000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#btn_principal ul li a:hover {
+  background-color: #006600;
+  color: #cccccc;
+}
+
+#datos_personales {
+  height: 400px;
+}
+
+#presentacion_izq {
+  width: 460px;
+  height: 295px;
+  background-color: #ebfafa;
+  float: left;
+}
+
+#presentacion_der {
+  width: 500px;
+  height: 295px;
+  background-color: #ebfafa;
+  float: right;
+}
+
+.img_ancho {
+  width: 100%;
+}
+
+#formacion {
+  height: 300px;
+}
+
+#formacion_izq {
+  width: 460px;
+  height: auto;
+  background-color: #d6f5f5;
+  float: left;
+}
+
+#formacion_der {
+  width: 500px;
+  height: auto;
+  background-color: #d6f5f5;
+  float: right;
+}
+
+#experiencia_izq {
+  width: 460px;
+  height: auto;
+  background-color: #ebfafa;
+  float: left;
+}
+
+#experiencia_der {
+  width: 500px;
+  height: 850px;
+  background-color: #ebfafa;
+  float: right;
+}
